@@ -39,8 +39,9 @@
 
     <!-- Fim do Header -->
 
+
     <!-- Hero -->
-     
+
     <section class="hero-servicos">
       <div class="hero-overlay d-flex align-items-center">
         <div class="container text-center">
@@ -51,5 +52,108 @@
     </section>
   
     <!-- Fim do Hero -->
+
+
+
+    <!-- Seção Tabs -->
+
+    <section class="py-5">
+      <div class="container">
+          <h2 class="fw-bold text-center mb-4">O que oferecemos</h2>
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="DevWeb" aria-selected="true">Desenvolvomento Web</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="MarkDig" aria-selected="false">Marketing Digital</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="Consu" aria-selected="false">Consultoria</button>
+              </li>
+
+                        </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="DevWeb">A chuva caía suave sobre o telhado, criando uma melodia tranquila. Pela janela, o céu cinza parecia envolver tudo em um manto de calma. Sentado em sua poltrona favorita, com uma xícara de chá nas mãos, tudo o mais parecia desaparecer. Só existia o som das gotas e a paz daquele momento.</div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="MarkDig">O parque estava silencioso, com os galhos nus das árvores cobertos de neve. Poucos ousavam caminhar por ali naquele frio cortante, mas os que o faziam pareciam aproveitar a tranquilidade. O ar gelado cortava a pele, mas a beleza da paisagem tornava tudo mais suportável.</div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="Consu">Ao virar a esquina, seus olhares se encontraram por acaso. Um instante eterno, como se o tempo tivesse parado só para eles. Nenhum dos dois disse uma palavra, mas naquele breve segundo, algo mudou. O mundo seguiu girando, mas aquele momento ficou gravado em seus corações.</div>
+            </div>
+      </div>
+    </section>
+
+    <!-- Fim da Seção Tabs -->
+
+    <!-- Section Planos -->
+
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="fw-bold text-center mb-4">Planos e Preços</h2>
+        <table class="table">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Planos</th>
+              <th scope="col">Recursos</th>
+              <th scope="col">Preço Mensal</th>
+              <th scope="col">Ação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Básico</td>
+              <td>Suporte simples, site educacional, 1 conta de e-mail.</td>
+              <td>R$100,00</td>
+              <td><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Contratar</button></td>
+            </tr>
+            <tr>
+              <td>Profissional</td>
+              <td>Suporte intermediário, site + 1 blog, 5 contas de e-mal.</td>
+              <td>R$250,00</td>
+              <td><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Contratar</button></td>
+            </tr>
+            <tr>
+              <td>Premium</td>
+              <td>Suporte avançado, E-comercio, contas de e-mail ilimitadas.</td>
+              <td>R$500,00</td>
+              <td><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Contratar</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contratar planos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Contratar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+
+    <!-- Fim da Section Planos -->
+
 </body>
 </html>
